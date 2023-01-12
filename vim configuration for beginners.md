@@ -1,0 +1,50 @@
+# vim configuration for beginners
+
+Author: Murphy Tian
+
+all the setups based on intel chip mac. Basically, arm mac would work, but I'm not sure.
+
+## Homebrew
+
+a missing package manager for mac or linux. You could consider it as your app store, but achieved through command line, which is more friendly for users.
+
+you should firstly open your terminal, iterm2 would be a better choice personally.
+
+paste command below, you could install Homebrew successfully.
+
+```shell
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+## vim
+
+- install `brew install vim`
+
+- basic usage
+
+  `i` insert mode
+
+  `esc` exit current mode
+
+  `:q!` force quit
+
+  `:wq` quit and save  
+
+- configuration
+
+  `vim ~/.vimrc` 
+
+  ```
+  set tabstop=4
+  set shiftwidth=4
+  set expandtab
+  set number
+  set mouse=a
+  set smartindent
+  set showmatch
+  
+  sytax on
+  filetype on
+  ```
+
+  ./vimrc could configure your vim personally, every needs different configuration, plugins based on yourself, but I recommand NERDTree, which is a file plugin that allows your to visualize your file hierarchy through vim.
