@@ -48,3 +48,37 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
   ```
 
   ./vimrc could configure your vim personally, every needs different configuration, plugins based on yourself, but I recommand NERDTree, which is a file plugin that allows your to visualize your file hierarchy through vim.
+  
+- plug
+
+  I prefer using plug-in
+
+  run this cmd on your terminal:
+  
+  ```
+  curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ```
+  
+  then, at your home directory, vim .vimrc
+  
+  ```
+  call plug#begin()
+  	Plug 'preservim/nerdtree'
+  call plug#end()
+  ```
+  
+  :wq and open vim
+  
+  `:PlugStatus`
+  
+  `:PlugInstall`
+  
+  then, reopen .vimrc
+  
+  ```
+  " Start NERDTree and leave the cursor in it
+  autocmd VimEnter * NERDTree
+  ```
+  
+  you can run NERDTree plugin successfully!
