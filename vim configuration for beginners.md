@@ -43,7 +43,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
   set smartindent
   set showmatch
   
-  sytax on
+  syntax on
   filetype on
   ```
 
