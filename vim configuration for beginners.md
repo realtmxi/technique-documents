@@ -24,6 +24,10 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 
   `i` insert mode
 
+  `x` delete
+
+  `dd` line deletion
+
   `esc` exit current mode
 
   `:q!` force quit
