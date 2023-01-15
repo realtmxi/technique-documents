@@ -85,4 +85,6 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
   autocmd VimEnter * NERDTree
   ```
   
-  you can run NERDTree plugin successfully!![vim](/Users/tianmuxin/Downloads/vim.jpg)
+  you can run NERDTree plugin successfully!
+  ![vim](https://user-images.githubusercontent.com/42812404/212563247-3f4fd911-5929-4868-9aba-b0c12c1171c2.jpg)
+
