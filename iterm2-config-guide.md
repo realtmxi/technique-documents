@@ -54,9 +54,9 @@ cd ..
 rm -rf fonts 
 ```
 
-open your iterm2 preference, profiels -> Text -> Font
+open your iterm2 preference, profiles -> Text -> Font
 
-chose 'Meslo LG M Regular for Powerline' font.
+chose 'Meslo LG M for Powerline' font.
 
 
 
