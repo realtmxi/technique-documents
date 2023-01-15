@@ -1,4 +1,5 @@
 # iterm2 personal configuration guide
+Author: Murphy Tian
 
 ## 1. install
 
