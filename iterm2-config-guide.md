@@ -84,4 +84,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 
 - you could set backgrounds by yourself in preferences->profiles->window
 - you could show status bar in your termial
-- you could directly connect ssh, or you could achieve through autocomplete and password suggestions
+- you could directly connect ssh, or you could achieve through autocomplete and password suggestions![iterm2](/Users/tianmuxin/Downloads/iterm2.jpg)
