@@ -185,3 +185,22 @@ func send(job: Int, toPrinter printerName: String) throws -> String {
 ### Assertion vs Precondition
 - assertions are checked only in debug builds
 - but preconditions are checked in both debug and production builds.
+
+
+
+
+## Strings
+
+- String literals: `""`
+- multiline string literals: `""" """`
+	- write a `\` at the end of lines when you don't want the line breaks be part of string's value but easier to read
+- special characters:
+	- escaped char: `\0`, `\\`, `\t`, `\n`, `\r`, `\"`, `\'`
+	- arbitrary unicode value: `\u{n}`, where n is a 1-8 digit hex number
+- initialize an empty string
+	- `isEmpty` property
+``` swift
+var emptyString = ""
+var anotherEmptyString = String()
+```
+- strings are value types: String value is copied when it's passed to a function or method or when it's assigned to a constant or variable.
