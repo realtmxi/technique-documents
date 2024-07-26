@@ -171,7 +171,7 @@ func send(job: Int, toPrinter printerName: String) throws -> String {
 ## Basics
 
 ### Numeric Literals:
-	- Numeric literals can contain extra formatting to make them easier to read.
+- Numeric literals can contain extra formatting to make them easier to read.
 		- Both integers and floats can be padded with extra zeros and can contain underscores to help with readability.
 ### Type Aliases
 - You can define type aliases with the `typealias` keyword
@@ -186,7 +186,16 @@ func send(job: Int, toPrinter printerName: String) throws -> String {
 - assertions are checked only in debug builds
 - but preconditions are checked in both debug and production builds.
 
+### Options
+#### Safely unwrapping optionals
+- `if let`
+- `guard let`
+- force unwrapping (`!`): we should only use this approach if we are 100% certain that the optional holds an actual value
+The main difference between using an `if let` versus a `guard let` statement is the scope of the variable/constant. we would want to use a `guard let` statement if we want to use the value many times outside of the block of code, or when we want to terminate the code early when a condition is false for efficiency purposes.
 
+- implicitly unwrapped optional: we can use `!` 
+- optional chaining: everything after the `?` will only be run if everything before it has a value and is not `nil`
+- nil coalescing operator `??`: provide a default value if the optional is holding `nil` 
 
 
 ## Strings
