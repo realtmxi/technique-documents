@@ -5,6 +5,7 @@
 ```
 git config --global user.name  "Murphy Tian"
 git config --global user.email "murphytian06@gmail.com"
+git config --global core.editor vim
 ```
 
 
@@ -56,6 +57,7 @@ npm install -g @anthropic-ai/claude-code
 ```
 snap install docker
 ```
+
 
 
 
